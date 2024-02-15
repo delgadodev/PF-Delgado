@@ -1,0 +1,15 @@
+.boton-vermas {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}

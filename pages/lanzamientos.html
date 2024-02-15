@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX - Lanzamientos</title>
+
+    <meta
+      name="description"
+      content="Explora los proximos lanzamientos de SpaceX, incluyendo dia y hora de lanzamiento, misiones y mas."
+    />
+
+    <meta
+      name="keywords"
+      content="SpaceX, lanzamientos, misiones, espacio, cohetes, starship, starlink, mars, moon, earth, orbit, space, nasa"
+    />
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="../img/icons/spacex.svg" type="image/x-icon" />
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container nav-container mt-3 mt-lg-5">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="logo-spacex"
+              src="../img/icons/spacex.svg"
+              alt="Logo SpaceX"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span>
+              <img
+                class="menu-icon"
+                src="../img/icons/menu.svg"
+                alt="Menu icon"
+              />
+            </span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end offcanvas-background"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                class="logo-spacex"
+                src="../img/icons/spacex.svg"
+                alt="Logo SpaceX"
+              />
+              <img
+                src="../img/icons/closebtn.svg"
+                alt=""
+                class="navbar-close-button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              />
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./lanzamientos.html"
+                    >Lanzamientos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./galeria.html">Galeria</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./tienda.html">Tienda</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="lanzamientos">
+        <h1 class="mt-5 text-uppercase fw-bold text-center">Lanzamientos</h1>
+
+        <div class="row g-md-5 mt-5">
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch1.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Febrero 14, 2024 </span>
+
+              <h2>USSF-124 MISSION</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
+              >
+                Ver más
+              </button>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal1"
+              tabindex="-1"
+              aria-labelledby="modal1"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal1">
+                      USSF-124 MISSION
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El miércoles 14 de febrero a las 5:30 p.m. ET, Falcon 9
+                      lanzó la misión USSF-124 a órbita terrestre baja desde el
+                      Complejo de Lanzamiento espacial 40 (SLC-40) en la
+                      Estación Espacial de Cabo Cañaveral en Florida. Se trata
+                      del séptimo lanzamiento de la primera etapa booster, que
+                      anteriormente apoyó las misiones Crew-6, SES O3b mPOWER y
+                      cuatro misiones Starlink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch2.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Febrero 9, 2024 </span>
+
+              <h2>Starlink mission</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal2"
+              >
+                Ver más
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal2"
+              tabindex="-1"
+              aria-labelledby="modal1"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal2">
+                      Starlink mission
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El viernes 9 de febrero a las 4:34 p.m. PT, Falcon 9 lanzó
+                      22 satélites Starlink a órbita terrestre baja desde el
+                      Complejo de Lanzamiento Espacial 4 Este (SLC-4E) en la
+                      Base Espacial Vandenberg en California. Se trata del
+                      decimocuarto vuelo de la primera etapa del cohete de apoyo
+                      a esta misión, que anteriormente lanzó NROL-87, NROL-85,
+                      SARah-1, SWOT, Transporter-8, Transporter-9 y ahora ocho
+                      misiones Starlink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch3.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Febrero 8, 2024 </span>
+
+              <h2>PACE MISSION</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3"
+              >
+                Ver más
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal3"
+              tabindex="-1"
+              aria-labelledby="modal3"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal3">PACE MISSION</h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El jueves 8 de febrero a la 1:33 a.m. ET, Falcon 9 lanzó
+                      la misión PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)
+                      de la NASA a una órbita sincrónica solar desde el Complejo
+                      de Lanzamiento Espacial 40 (SLC-40) en la Estación
+                      Espacial de Cabo Cañaveral en Florida. Este fue el cuarto
+                      vuelo de la primera etapa del cohete de apoyo a esta
+                      misión, que anteriormente lanzó Crew-7, CRS-29 y una
+                      misión Starlink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch4.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Febrero 9, 2024 </span>
+
+              <h2>AX-3 MISSION</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal4"
+              >
+                Ver más
+              </button>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal4"
+              tabindex="-1"
+              aria-labelledby="modal4"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal4">AX-3 MISSION</h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Tras 21 días en el espacio, Dragon y los astronautas de
+                      Ax-3, Michael López-Alegría , Walter Villadei , Alper
+                      Gezeravcı , y Marcus Wandt regresaron a la Tierra y
+                      amerizaron frente a la costa de Florida a las 8:30 a.m. ET
+                      del viernes 9 de febrero. Falcon 9 lanzó la nave espacial
+                      desde el Complejo de Lanzamiento 39A (LC-39A) en el Centro
+                      Espacial Kennedy en Florida el jueves 18 de enero a las
+                      16:49 ET.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch5.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Enero 30, 2024 </span>
+
+              <h2>NG-20 MISSION</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal5"
+              >
+                Ver más
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal5"
+              tabindex="-1"
+              aria-labelledby="modal5"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal5">NG-20 MISSION</h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El martes 30 de enero a las 12:07 p.m. ET, Falcon 9 lanzó
+                      la vigésima misión de Servicios Comerciales de
+                      Reabastecimiento (NG-20) de Northrop Grumman a la Estación
+                      Espacial Internacional desde el Complejo Espacial 40
+                      (SLC-40) en la Estación Espacial de Cabo Cañaveral en
+                      Florida. Este fue el décimo vuelo de la primera etapa del
+                      cohete de apoyo a esta misión, que anteriormente lanzó
+                      Crew-5, GPS III Space Vehicle 06, Inmarsat I6-F2, CRS-28,
+                      Intelsat G-37, y cuatro misiones Starlink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-lg-4 lanzamientos-card">
+            <img
+              class="imagen-lanzamiento"
+              src="../img/launches/launch6.jpg"
+              alt="Imagen lanzamiento"
+            />
+            <div class="info-lanzamiento">
+              <span> Enero 28, 2024 </span>
+
+              <h2>Starlink mission</h2>
+
+              <button
+                type="button"
+                class="boton-vermas"
+                data-bs-toggle="modal"
+                data-bs-target="#modal6"
+              >
+                Ver más
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal6"
+              tabindex="-1"
+              aria-labelledby="modal6"
+              aria-hidden="true"
+              data-bs-theme="dark"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modal6">
+                      Starlink mission
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El domingo 29 de enero a las 9:57 p.m. PT, Falcon 9 lanzó
+                      22 satélites Starlink a órbita terrestre baja desde el
+                      Complejo de Lanzamiento Espacial 4 Este (SLC-4E) en la
+                      Base Espacial Vandenberg en California. Se trata del
+                      noveno vuelo de la primera etapa del cohete de apoyo a
+                      esta misión, que anteriormente lanzó SDA-0A, SARah-2 y
+                      ahora siete misiones Starlink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="text-center">Todos los derechos reservados 2024 &copy;</p>
+    </footer>
+  </body>
+</html>

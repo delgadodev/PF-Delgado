@@ -1,0 +1,42 @@
+.productos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .product-card {
+    width: 100%;
+    margin-top: 45px;
+    .product-title {
+      font-weight: 200;
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .product-img {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 400px;
+      transition: background-image 0.3s ease-in-out;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    @for $i from 1 through 6 {
+      &:nth-child(#{$i}) {
+        .product-img {
+          background-image: url("../img/productos/producto#{$i}.webp");
+
+          &:hover {
+            background-image: url("../img/productos/hover/producto#{$i}.webp");
+          }
+        }
+      }
+    }
+  }
+}

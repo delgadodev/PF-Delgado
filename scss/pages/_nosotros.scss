@@ -1,0 +1,61 @@
+.nosotros {
+  @include flex-container(column, center, center);
+  .nosotros-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.container-carousel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .carousel {
+    width: 100%;
+    height: 600px;
+    .carousel-inner {
+      width: 100%;
+      height: 100%;
+      .carousel-item {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.contacto-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  @include flex-container(column, center, center);
+  gap: 50px;
+
+  @media (min-width: 768px) {
+    @include flex-container(row-reverse, center, center);
+  }
+
+  .contacto-form {
+    width: 100%;
+    height: 500px;
+  }
+
+  .ubicacion {
+    width: 100%;
+    height: 500px;
+    .contacto-mapa {
+      margin-top: 30px;
+      width: 100%;
+      height: 500px;
+      border-radius: 10px;
+    }
+  }
+
+  .contacto-form {
+    width: 100%;
+  }
+}
